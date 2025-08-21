@@ -14,7 +14,7 @@ def imgram(url, output):
         login = json.load(f)
         if login["username"] == "" or login["password"] == "":
             login["username"] = input("Username: ")
-            login["password"] = input("Password: ")
+            login["password"] = pwinput.pwinput()
             f.seek(0)
             json.dump(login, f, indent=4)
         
