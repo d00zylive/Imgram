@@ -1,8 +1,8 @@
 [project]
-name = "imgram"
+name = "imgram_Doozy"
 version = "1.0.0"
 authors = [
-    { name="Doozy", email="benjamin@starbirds.nl" }
+    { name="Doozy" }
 ]
 description = "Instagram media downloader CLI (doesn't work for stories)"
 readme = "README.md"
